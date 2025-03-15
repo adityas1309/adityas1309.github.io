@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const skills = [
-  { name: "Git", image: "/src/assets/git_logo.png", bg: "from-orange-500 to-red-600" },
-  { name: "Javascript", image: "/src/assets/js_logo.png", bg: "from-yellow-400 to-orange-500" },
-  { name: "React", image: "/src/assets/react_logo.png", bg: "from-blue-400 to-cyan-500" },
-  { name: "GSAP", image: "/src/assets/gsap.png", bg: "from-green-400 to-emerald-600" },
-  { name: "Three.js", image: "/src/assets/threejs.png", bg: "from-purple-400 to-indigo-600" },
+  { name: "Git", image: "./src/assets/git_logo.png", bg: "from-orange-500 to-red-600" },
+  { name: "Javascript", image: "./src/assets/js_logo.png", bg: "from-yellow-400 to-orange-500" },
+  { name: "React", image: "./src/assets/react_logo.png", bg: "from-blue-400 to-cyan-500" },
+  { name: "GSAP", image: "./src/assets/gsap.png", bg: "from-green-400 to-emerald-600" },
+  { name: "Three.js", image: "./src/assets/threejs.png", bg: "from-purple-400 to-indigo-600" },
 ];
 
 export default function HeroSkills() {

@@ -32,14 +32,14 @@ export default function Header() {
     >
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
         
-        <motion.a
-          href="#"
-          className="text-xl font-display font-bold text-white"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Aditya Singh
-        </motion.a>
+    <motion.a
+      href="#"
+      className="text-xl font-display font-bold text-white"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+    >
+      <img src="/assets/adityasingh.png" alt="Logo" className="h-10 w-auto" />
+    </motion.a>
 
         
         <ul className="hidden md:flex items-center space-x-8">

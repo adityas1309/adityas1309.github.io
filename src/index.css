@@ -123,6 +123,19 @@ body {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
+@font-face {
+  font-family: 'Roslindale';
+  src: url('/assets/fonts/RoslindaleDisplayCondensed-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mint Grotesk';
+  src: url('/assets/fonts/Mint Grotesk - Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
 
 
 .skill-pill:active {

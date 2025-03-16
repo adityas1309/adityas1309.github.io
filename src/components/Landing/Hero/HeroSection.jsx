@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import React from 'react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HeroText from "./HeroText";
 import HeroSkills from "./HeroSkills";

@@ -34,7 +34,7 @@ export default function MiniIntro() {
                   }}
                 >
                   <img
-                    src="/assets/mypic1.jpg"
+                    src="assets/mypic1.jpg"
                     alt="Pic1"
                     className="w-full h-full object-cover"
                   />
@@ -59,7 +59,7 @@ export default function MiniIntro() {
                   }}
                 >
                   <img
-                    src="/assets/mypic2.jpg"
+                    src="assets/mypic2.jpg"
                     alt="Pic2"
                     className="w-full h-full object-cover"
                   />
@@ -84,7 +84,7 @@ export default function MiniIntro() {
                   }}
                 >
                   <img
-                    src="/assets/mypic3.jpg"
+                    src="assets/mypic3.jpg"
                     alt="Pic3"
                     className="w-full h-full object-cover"
                   />

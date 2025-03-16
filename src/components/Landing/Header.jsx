@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import React from 'react';
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -38,7 +39,7 @@ export default function Header() {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      <img src="/assets/adityasingh.png" alt="Logo" className="h-10 w-auto" />
+      <img src="assets/adityasingh.png" alt="Logo" className="h-10 w-auto" />
     </motion.a>
 
         

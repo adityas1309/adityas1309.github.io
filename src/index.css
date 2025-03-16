@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Iansui&family=Indie+Flower&family=Marcellus+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 
@@ -123,16 +124,10 @@ body {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-@font-face {
-  font-family: 'Roslindale';
-  src: url('/assets/fonts/RoslindaleDisplayCondensed-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-}
 
 @font-face {
-  font-family: 'Mint Grotesk';
-  src: url('/assets/fonts/Mint Grotesk - Medium.woff2') format('woff2');
+  font-family: 'Safiro';
+  src: url('/assets/fonts/safiro-regular-i.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from './Hero/HeroSection';
 import Header from './Header';
 import MiniIntro from './MiniIntro';
+import ProjectsSection from './Project/ProjectsSection';
 
 const LandingPage = () => {
   return (
@@ -9,6 +10,7 @@ const LandingPage = () => {
       <Header />
       <HeroSection />
       <MiniIntro />
+      <ProjectsSection />
     </div>
   );
 }
